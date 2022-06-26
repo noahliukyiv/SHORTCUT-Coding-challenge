@@ -3,9 +3,9 @@ version = 0.1
 [default.deploy]
 [default.deploy.parameters]
 stack_name = "URLShortener"
-s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-iiiowkjvotyf"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-u3544vc1w8jc"
 s3_prefix = "URLShortener"
 region = "eu-north-1"
 capabilities = "CAPABILITY_IAM"
-parameter_overrides = "AppName=\"shortener\" UseLocalClient=\"false\" GithubRepository=\"https://github.com/noahliukyiv/amazon-api-gateway-url-shortener.git\" CustomDomain=\"none\""
+parameter_overrides = "AppName=\"shortener\" UseLocalClient=\"false\" GithubRepository=\"https://github.com/noahliukyiv/SHORTCUT-Coding-challenge.git\" CustomDomain=\"none\""
 image_repositories = []
